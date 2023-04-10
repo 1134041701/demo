@@ -1,6 +1,6 @@
 package com.example.demo.service;
 
-public class ServiceTest {
+public class ServiceDemo {
     public String ifElseMethod(Integer age){
         String returnString;
         if(age != null){
