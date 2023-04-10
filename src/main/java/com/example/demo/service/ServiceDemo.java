@@ -1,5 +1,7 @@
 package com.example.demo.service;
 
+import java.util.List;
+
 public class ServiceDemo {
     public String ifElseMethod(Integer age){
         String returnString;
@@ -16,6 +18,14 @@ public class ServiceDemo {
             }else {
                 returnString = "error";
                 return returnString;
+            }
+        }
+        return null;
+    }
+    public String whileMethod(List<String> list){
+        for (String bbb : list) {
+            if(bbb.equals("hello")){
+                return bbb;
             }
         }
         return null;
